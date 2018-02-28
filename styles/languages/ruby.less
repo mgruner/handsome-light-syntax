@@ -1,0 +1,41 @@
+.syntax--source.syntax--ruby {
+  .syntax--meta {
+    .syntax--class,
+    .syntax--function {
+      &.syntax--name {
+        .syntax--purple();
+      }
+    }
+  }
+
+  .syntax--name.syntax--module {
+    .syntax--purple();
+  }
+
+}
+
+.syntax--html.syntax--ruby,
+.syntax--html.syntax--erb {
+  .syntax--rails.syntax--embedded,
+  .syntax--meta.syntax--embedded {
+    .syntax--reset-all();
+
+    .syntax--blue();
+
+    .syntax--punctuation.syntax--section.syntax--embedded {
+      color: @blue-medium;
+    }
+  }
+
+  .syntax--string {
+    &.syntax--quoted {
+      .syntax--embedded {
+        .syntax--reset();
+
+        .syntax--punctuation.syntax--section {
+          color: inherit;
+        }
+      }
+    }
+  }
+}

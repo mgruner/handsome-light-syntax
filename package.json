@@ -1,0 +1,18 @@
+{
+  "name": "handsome-light-syntax",
+  "theme": "syntax",
+  "version": "0.3.0",
+  "description": "A light easy on the eyes atom syntax theme with minimal highlighting.",
+  "keywords": [
+    "light",
+    "minimal",
+    "handsome",
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/mgruner/handsome-light-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

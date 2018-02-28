@@ -1,0 +1,28 @@
+.syntax--source.syntax--clojure {
+
+  .syntax--storage {
+    &.syntax--control {
+      font-weight: bold;
+    }
+  }
+
+  .syntax--meta {
+    &.syntax--definition {
+      .syntax--entity.syntax--global {
+        .syntax--purple();
+      }
+    }
+
+    &.syntax--metadata {
+      .syntax--reset-all();
+      font-style: italic;
+    }
+  }
+
+  .syntax--punctuation {
+    &.syntax--expression {
+      color: @gray;
+    }
+  }
+
+}

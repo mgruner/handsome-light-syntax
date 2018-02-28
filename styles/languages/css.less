@@ -1,0 +1,38 @@
+.syntax--source.syntax--css {
+
+  .syntax--meta.syntax--selector .syntax--entity.syntax--name.syntax--tag,
+  .syntax--class:not(.syntax--mixin){
+    .syntax--purple();
+  }
+
+  .syntax--constant.syntax--support {
+    .syntax--blue();
+  }
+
+  .syntax--keyword {
+    .syntax--reset();
+  }
+
+  .syntax--rgb-value {
+    .syntax--blue();
+  }
+
+  .syntax--bracket.syntax--curly {
+    color: @gray;
+  }
+
+  .syntax--punctuation {
+    &.syntax--separator,
+    &.syntax--terminator {
+      color: @gray;
+    }
+  }
+
+  .syntax--comment {
+    .syntax--class {
+      .syntax--reset();
+      font-weight: bold;
+    }
+  }
+
+}

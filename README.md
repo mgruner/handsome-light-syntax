@@ -1,4 +1,4 @@
-A light easy on the eyes atom syntax theme with minimal amount of highlighting.
+A beautiful syntax theme that helps focus on the important and avoids being distracted by multitudes of styles and (signal) colors.
 
 ## Minimal highlighting, just 5 classes:
 
@@ -21,10 +21,10 @@ For good readability text has contrast 6:1 and it is consistent for all colors. 
 
 - Clojure
 - CSS
-- [Elixir](https://atom.io/packages/language-elixir)
+- Elixir
 - GitHub Markdown
 - HTML
-- [JavaScript](https://atom.io/packages/language-babel)
+- JavaScript
 - Ruby
 - Perl
 - PHP
@@ -52,4 +52,6 @@ If the command line isn't your thing:
 
 ### Thanks
 
-Forked from [Chestnut Light Atom](https://github.com/biletskyy/chestnut-light-atom-syntax) syntax theme by [Dmitry Biletskyy](https://github.com/biletskyy).
+Forked from the (inactive) [Chestnut Light Atom](https://github.com/biletskyy/chestnut-light-atom-syntax) syntax theme by [Dmitry Biletskyy](https://github.com/biletskyy).
+
+Thanks also to [Ferdinand Vogler](https://github.com/fv0) for the excellent [native-ui UI theme](https://github.com/fv0/native-ui) that plays exceptionally well with this syntax theme.

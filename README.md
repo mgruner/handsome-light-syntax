@@ -1,6 +1,12 @@
 A beautiful syntax theme that helps focus on the important and avoids being distracted by multitudes of styles and (signal) colors.
 
-## Minimal highlighting, just 5 classes:
+## Screenshot
+
+<p><img src="https://github.com/mgruner/handsome-light-syntax/raw/master/ruby-screenshot.png" alt="Ruby screenshot" width="782px" height="727px"></p>
+
+## Principles
+
+### Minimal highlighting, just 5 classes:
 
 1. Strings
 2. All statically known constants (numbers, keywords, boolean, etc)
@@ -8,12 +14,11 @@ A beautiful syntax theme that helps focus on the important and avoids being dist
 4. Standard language keywords (def, if, else, etc)
 5. Comments
 
+### Comments highlighting
 
-## Comments highlighting
+Comments are clearly visible - unlike in many other syntax themes! I think if there are comments we should see and read them first.
 
-Comments are clearly visible. I think if there are comments we should see and read them first.
-
-## Contrast:
+### Readability / contrast
 
 For good readability text has contrast 6:1 and it is consistent for all colors. Contrast calculated with [HCL color model](https://en.wikipedia.org/wiki/HCL_color_space). Secondary color contrast is 2.5:1
 
@@ -31,10 +36,6 @@ For good readability text has contrast 6:1 and it is consistent for all colors. 
 - Python
 - XML
 - YAML
-
-## Screenshot
-
-<p><img src="https://github.com/mgruner/handsome-light-syntax/raw/master/ruby-screenshot.png" alt="Ruby screenshot" width="782px" height="727px"></p>
 
 ## Install
 

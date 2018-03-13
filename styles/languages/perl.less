@@ -1,10 +1,20 @@
 .syntax--perl {
 
+  // Don't show POD blocks as normal comments.
+  .syntax--documentation,
+  .syntax--pod {
+      .syntax--reset();
+  }
+
   .syntax--entity.syntax--name {
     &.syntax--class,
     &.syntax--function {
       .syntax--purple();
     }
+  }
+
+  .syntax--pod.syntax--variable {
+      .syntax--purple();
   }
 
   .syntax--constant.syntax--bareword,
@@ -17,8 +27,14 @@
   .syntax--support {
     &.syntax--modifier,
     &.syntax--function,
+    &.syntax--pod,
     &.syntax--sub {
       font-weight: bold;
     }
+  }
+
+  // Highlight POD formatting codes like L<>, C<>.
+  .syntax--pod.syntax--entity {
+      font-weight: bold;
   }
 }

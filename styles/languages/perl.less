@@ -1,20 +1,10 @@
 .syntax--perl {
 
-  // Don't show POD blocks as normal comments.
-  .syntax--documentation,
-  .syntax--pod {
-      .syntax--reset();
-  }
-
   .syntax--entity.syntax--name {
     &.syntax--class,
     &.syntax--function {
       .syntax--purple();
     }
-  }
-
-  .syntax--pod.syntax--variable {
-      .syntax--purple();
   }
 
   .syntax--constant.syntax--bareword,
@@ -33,8 +23,15 @@
     }
   }
 
-  // Highlight POD formatting codes like L<>, C<>.
-  .syntax--pod.syntax--entity {
+  // Don't show POD blocks as normal comments, only keep the italic style.
+  .syntax--documentation,
+  .syntax--pod {
+    .syntax--reset();
+
+    // Highlight POD keywords, headings and formatting codes like L<>, C<>.
+    .syntax--variable,
+    .syntax--entity {
       font-weight: bold;
+    }
   }
 }

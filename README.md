@@ -50,6 +50,9 @@ If the command line isn't your thing:
 - Go to **Settings > Themes** and choose **Handsome Light** from the dropdown menu
 - Happy coding! :heart:
 
+### See also
+
+The ["dark version"](https://github.com/mgruner/handsome-dark-syntax) of this theme.
 
 ### Thanks
 

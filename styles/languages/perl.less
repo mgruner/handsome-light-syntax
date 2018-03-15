@@ -23,11 +23,8 @@
     }
   }
 
-  // Don't show POD blocks as normal comments, only keep the italic style.
   .syntax--documentation,
   .syntax--pod {
-    .syntax--reset();
-
     // Highlight POD keywords, headings and formatting codes like L<>, C<>.
     .syntax--variable,
     .syntax--entity {

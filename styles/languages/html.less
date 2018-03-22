@@ -5,15 +5,27 @@
         &.syntax--name {
           font-weight: bold;
         }
-
-        &.syntax--attribute-name {
-          font-style: italic;
-        }
       }
 
       .syntax--punctuation.syntax--definition.syntax--tag {
         color: @gray;
       }
     }
+  }
+
+  // We don't want attributes to be highlighted green as strings.
+  .syntax--attribute-with-value {
+      .syntax--string {
+          .syntax--reset();
+      }
+
+      .syntax--separator {
+          color: @gray;
+      }
+
+      .syntax--string > .syntax--punctuation.syntax--definition {
+          .syntax--reset();
+          color: @gray;
+      }
   }
 }

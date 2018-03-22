@@ -1,20 +1,21 @@
 .syntax--source.syntax--css {
 
   .syntax--meta.syntax--selector .syntax--entity.syntax--name.syntax--tag,
+  .syntax--id,
   .syntax--class:not(.syntax--mixin){
     .syntax--purple();
   }
 
-  .syntax--constant.syntax--support {
+  .syntax--constant {
     .syntax--blue();
+    .syntax--punctuation {
+        .syntax--reset();
+        color: @blue-medium;
+    }
   }
 
   .syntax--keyword {
     .syntax--reset();
-  }
-
-  .syntax--rgb-value {
-    .syntax--blue();
   }
 
   .syntax--bracket.syntax--curly {
@@ -34,5 +35,10 @@
       font-weight: bold;
     }
   }
+
+  .syntax--support.syntax--property-name {
+      .syntax--reset();
+      font-weight: bold;
+    }
 
 }

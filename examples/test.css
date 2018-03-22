@@ -1,0 +1,18 @@
+.inhalt,
+#inhalt > .inhalt > #unterpunkt {
+	width: 800px;
+}
+
+/*
+    Comment
+*/
+@media screen and (max-width: 1024px) {
+	#inhalt {
+		width: 600px;
+	}
+
+	aside {
+		display: none;
+        color: #000;
+	}
+}

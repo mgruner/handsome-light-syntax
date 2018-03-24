@@ -1,8 +1,10 @@
 .syntax--source.syntax--css {
 
+  // CSS selectors
   .syntax--meta.syntax--selector .syntax--entity.syntax--name.syntax--tag,
-  .syntax--id,
-  .syntax--class:not(.syntax--mixin){
+  .syntax--meta.syntax--selector .syntax--id,
+  // Classes can appear also outside of selectors, for example in less files.
+  .syntax--class:not(.syntax--mixin) {
     .syntax--purple();
   }
 
@@ -14,9 +16,9 @@
     }
   }
 
-  .syntax--keyword {
-    .syntax--reset();
-  }
+  // .syntax--keyword {
+  //   .syntax--reset();
+  // }
 
   .syntax--bracket.syntax--curly {
     color: @gray;

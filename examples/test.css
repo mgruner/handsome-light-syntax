@@ -1,5 +1,5 @@
 .inhalt,
-#inhalt > .inhalt > #unterpunkt {
+#inhalt > .inhalt > #unterpunkt::before {
 	width: 800px;
 }
 

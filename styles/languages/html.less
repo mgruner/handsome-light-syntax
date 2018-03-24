@@ -1,10 +1,9 @@
 .syntax--html {
   .syntax--meta {
     &.syntax--tag {
-      .syntax--entity {
-        &.syntax--name {
-          font-weight: bold;
-        }
+      .syntax--entity.syntax--name,
+      .syntax--sgml {
+        font-weight: bold;
       }
 
       .syntax--punctuation.syntax--definition.syntax--tag {
@@ -13,8 +12,9 @@
     }
   }
 
-  // We don't want attributes to be highlighted green as strings.
   .syntax--attribute-with-value {
+      // We don't want attributes to be highlighted green as strings,
+      //    mostly because this interferes with markup for CSS style attribute contents.
       .syntax--string {
           .syntax--reset();
       }

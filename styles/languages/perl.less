@@ -13,6 +13,16 @@
     .syntax--blue();
   }
 
+
+  .syntax--string.syntax--unquoted.syntax--heredoc {
+      .syntax--green();
+
+      .syntax--punctuation.syntax--definition,
+      .syntax--punctuation.syntax--string {
+          color: @green-medium;
+      }
+  }
+
   .syntax--storage,
   .syntax--support {
     &.syntax--modifier,

@@ -2,7 +2,7 @@ A beautiful syntax theme that helps focus on the important and avoids being dist
 
 ## Screenshot
 
-<p><img src="https://github.com/mgruner/handsome-light-syntax/raw/master/ruby-screenshot.png" alt="Ruby screenshot"></p>
+![Ruby Screenshot](ruby-screenshot.png)
 
 ## Principles
 

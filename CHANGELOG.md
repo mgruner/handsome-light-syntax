@@ -1,3 +1,6 @@
+## 0.3.5 2020-01-07
+* Small markdown fix.
+
 ## 0.3.4 2018-08-03
 * Added support for Perl heredocs.
 

@@ -1,3 +1,6 @@
+## 0.3.6 2020-01-14
+* Fixed comment display in Ruby.
+
 ## 0.3.5 2020-01-07
 * Small markdown fix.
 

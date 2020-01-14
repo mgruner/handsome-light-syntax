@@ -39,21 +39,16 @@
   }
 }
 
-
-
 // Global syntax styles
 
 .syntax--comment {
-  &.syntax--block,
-  &.syntax--line {
-    .syntax--orange();
-    display: inline-block;
-    font-style: italic;
+  .syntax--orange();
+  display: inline-block;
+  font-style: italic;
 
-    .syntax--comment.syntax--punctuation {
-      color: @orange-medium;
-      background: none;
-    }
+  .syntax--comment.syntax--punctuation {
+    color: @orange-medium;
+    background: none;
   }
 }
 

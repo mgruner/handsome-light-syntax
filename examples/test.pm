@@ -10,6 +10,7 @@ use Scalar::Util qw(weaken);
 =head1 NAME
 
 test - test module for syntax highlighting tests
+second line of POD
 
 =cut
 

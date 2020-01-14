@@ -1,7 +1,7 @@
 {
   "name": "handsome-light-syntax",
   "theme": "syntax",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "A beautiful light syntax theme that helps focus on the important and avoids being distracted by multitudes of styles and (signal) colors.",
   "keywords": [
     "reduced",
